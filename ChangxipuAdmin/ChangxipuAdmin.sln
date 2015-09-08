@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChangxipuAdmin", "ChangxipuAdmin\ChangxipuAdmin.vcproj", "{7149B746-FAE5-4168-93B9-4498FA75A578}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A72428B-182A-4715-9E37-50BD73AF8FDC} = {3A72428B-182A-4715-9E37-50BD73AF8FDC}
+		{75C062FB-C8D7-4736-90DC-B099F389D083} = {75C062FB-C8D7-4736-90DC-B099F389D083}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Utility\Utility.vcproj", "{75C062FB-C8D7-4736-90DC-B099F389D083}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQLInterface", "MySQLInterface\MySQLInterface.vcproj", "{3A72428B-182A-4715-9E37-50BD73AF8FDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7149B746-FAE5-4168-93B9-4498FA75A578}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7149B746-FAE5-4168-93B9-4498FA75A578}.Debug|Win32.Build.0 = Debug|Win32
+		{7149B746-FAE5-4168-93B9-4498FA75A578}.Release|Win32.ActiveCfg = Release|Win32
+		{7149B746-FAE5-4168-93B9-4498FA75A578}.Release|Win32.Build.0 = Release|Win32
+		{75C062FB-C8D7-4736-90DC-B099F389D083}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75C062FB-C8D7-4736-90DC-B099F389D083}.Debug|Win32.Build.0 = Debug|Win32
+		{75C062FB-C8D7-4736-90DC-B099F389D083}.Release|Win32.ActiveCfg = Release|Win32
+		{75C062FB-C8D7-4736-90DC-B099F389D083}.Release|Win32.Build.0 = Release|Win32
+		{3A72428B-182A-4715-9E37-50BD73AF8FDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A72428B-182A-4715-9E37-50BD73AF8FDC}.Debug|Win32.Build.0 = Debug|Win32
+		{3A72428B-182A-4715-9E37-50BD73AF8FDC}.Release|Win32.ActiveCfg = Release|Win32
+		{3A72428B-182A-4715-9E37-50BD73AF8FDC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
